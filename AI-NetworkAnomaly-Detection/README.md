@@ -32,7 +32,7 @@ The system leverages an **ensemble approach** that combines:
 ## Installation  
 Clone the repository:  
 ```bash
-git clone https://github.com/your-repo/network-monitor.git
+git clone https://github.com/ayomidee-e/AI-ML-Cybersecurity-Projects/tree/master/AI-NetworkAnomaly-Detection.git
 cd network-monitor
 ````
 
@@ -62,18 +62,6 @@ pip install -r requirements.txt
    http://127.0.0.1:8050/
    ```
 
-## Project Structure
-```
-AI-Network-Anomaly-Detection/
-│── app.py  # Dash dashboard
-│── main.py  # Network analysis engine
-│── requirements.txt  # Dependencies
-│── network_analysis.log  # Logging file
-│── network_connections.csv  # Connection logs
-│── network_traffic.csv  # Traffic logs
-│── README.md  # Documentation
-```
-
 ## Configuration
 - Modify `main.py` to adjust anomaly detection thresholds.
 - Update `app.py` to customize dashboard visualizations.
@@ -81,8 +69,6 @@ AI-Network-Anomaly-Detection/
 ## Contributing
 Pull requests are welcome! If you have suggestions, feel free to open an issue.
 
-## License
-MIT License
 
 
 
