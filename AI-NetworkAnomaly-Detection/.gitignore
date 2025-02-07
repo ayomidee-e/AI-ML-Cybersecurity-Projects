@@ -1,0 +1,72 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+*.egg
+*.whl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug files
+logs/
+*.log
+*.out
+*.err
+nohup.out
+
+# Dataset and large files
+data/
+dataset/
+*.csv
+*.json
+*.xlsx
+*.parquet
+
+# Model files and checkpoints
+models/
+checkpoints/
+*.h5
+*.pth
+*.pt
+*.pb
+*.tflite
+*.onnx
+*.joblib
+*.pkl
+*.sav
+
+# TensorFlow / PyTorch specific files
+events.out.tfevents*
+*.ckpt
+*.npy
+*.npz
+
+# Temporary and backup files
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Cloud and deployment files
+*.env
+config.yaml
+credentials.json
+secrets.toml
+
+# VS Code / PyCharm / JetBrains
+.vscode/
+.idea/
+*.iml
+
+# Docker / Conda
+docker-compose.override.yml
+*.dockerfile
+conda-meta/
