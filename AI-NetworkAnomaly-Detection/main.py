@@ -130,10 +130,6 @@ class AdvancedNetworkAnomalyDetector:
         )
         self.models['isolation_forest'].fit(X_train)
 
-        # Save the model
-        with open("isolation_forest.pkl", "wb") as f:
-            pypickle.save(self.models['isolation_forest'], f)
-
         # Random Forest
         self.models['random_forest'] = RandomForestClassifier(
             n_estimators=100,

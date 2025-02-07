@@ -165,7 +165,7 @@ class RealTimeAnalysisEngine:
                         self.packet_buffer.append(packet)
 
                         # Anomaly detection based on threshold
-                        is_anomaly = packet['total_bytes'] > 100  # 1MB threshold
+                        is_anomaly = packet['total_bytes'] > 100000  # threshold
                         self.anomaly_scores.append(float(is_anomaly))
 
                         if is_anomaly:
